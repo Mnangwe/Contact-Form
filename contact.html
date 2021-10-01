@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form | Azabenathi's site</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="header">
+            <h1 id="title" class="text-center">Registration Form</h1>
+            <p id="description" class="description text-center">
+                Thank you, looking forward for your professional input
+            </p>
+        </div>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+                <input type="text" name="surname" id="sname" class="form-control" placeholder="Enter your surname" required />
+            </div>
+            <div class="form-group">
+                <input type="text" name="username" id="uname" class="form-control" placeholder="Enter your username" required />
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email"
+                    required />
+            </div>
+            <div class="form-group">
+                <input type="text" name="phone-number" id="number" min="10" max="15" class="form-control" placeholder="phone-number"/>
+            </div>
+
+            <div class="form-group">
+                <textarea id="comments" class="input-textarea" name="comment"
+                    placeholder="Enter a message here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
