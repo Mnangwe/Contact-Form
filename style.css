@@ -61,6 +61,11 @@ main {
 .content {
   width: 40%;
 }
+nav li:hover {
+  background-color: #ddd;
+  color: black;
+  z-index: 2;
+}
 /* .title {
     font-size: 4rem;
     margin-bottom: 0;
