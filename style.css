@@ -81,12 +81,11 @@ article {
   font-size: 70px;
 }
 
-img {
+img.home, img.about {
   width: 300px;
   height: 300px;
   border: 1px solid #999;
   border-radius: 50%;
-  
 }
 span a {
   text-decoration: none;
@@ -167,7 +166,7 @@ button {
 
 .container {
   width: 100%;
-  margin: 3.125rem auto 0 auto;
+  margin: 10% auto 0 auto;
 }
 @media (min-width: 425){
   .container {
