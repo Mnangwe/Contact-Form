@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Azabenathi</title>
+  <title>Testimonials | Azabenathi</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
   <link rel="stylesheet" href="style.css" />
   <style>
     main.content {
@@ -13,6 +14,8 @@
       width: 100%;
       flex-direction: row;
       justify-content: space-around;
+      flex-wrap: wrap;
+      /* justify-self: center; */
     }
 
     .flip-card {
@@ -20,7 +23,9 @@
       width: 350px;
       height: 350px;
       perspective: 1000px;
-      text-align: justify;
+      text-align: center;
+      /* border: ridge 10px blue; */
+      
     }
 
     .flip-card-inner {
@@ -45,15 +50,20 @@
       height: 100%;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
+      border-radius: 20px;
+    }
+    .flip-card-front img {
+      border-radius: 20px;
     }
 
     .flip-card-front {
       background-color: #bbb;
       color: black;
+      border-radius: 20px;
     }
 
     .flip-card-back {
-      background-color: #18181a;
+      background-color: #666;
       color: white;
       transform: rotateY(180deg);
     }
@@ -79,10 +89,11 @@
       border-radius: 10px;
     }
 
-    @media (min-width: 768px) {
+    @media (max-width: 1024px) {
       .main.content {
         display: flex;
         flex-direction: column;
+        gap: 10px;
         justify-content: space-evenly;
       }
     }
@@ -113,7 +124,7 @@
             in the IT industry, to carry out tasks autonomously and
             collaboratively with team members. Dynamic, innovative and critical with solid
             desire to learn and grow within the field. </p>
-          <button><a href="./contact.html">Contact</a></button>
+          <!-- <button><a href="./contact.html">Contact</a></button> -->
         </div>
       </div>
     </div>
@@ -124,9 +135,9 @@
         </div>
         <div class="flip-card-back">
           <h1>Kagiso Mphayi</h1>
-          <p>Architect & Engineer</p>
+          <p><b>Fullstack Developer</b> </p>
           <p>We love that guy</p>
-          <button><a href="">Contact</a></button>
+          <!-- <button><a href="">Contact</a></button> -->
         </div>
       </div>
     </div>
@@ -137,9 +148,9 @@
         </div>
         <div class="flip-card-back">
           <h1>Ashley Kannemeyer</h1>
-          <p>Architect & Engineer</p>
+          <p><b>Fullstack Developer</b></p>
           <p>We love that guy</p>
-          <button><a href="">Contact</a></button>
+          <!-- <button><a href="">Contact</a></button> -->
         </div>
       </div>
     </div>

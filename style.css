@@ -81,7 +81,7 @@ article {
   font-size: 70px;
 }
 
-img.home, img.about {
+img#home, img.about {
   width: 300px;
   height: 300px;
   border: 1px solid #999;
