@@ -10,12 +10,11 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     main.content {
-      display: flex;
+      display: grid;
+      grid-template-columns: auto auto auto;
       width: 100%;
-      flex-direction: row;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      /* justify-self: center; */
+      grid-gap: 50px
+      
     }
 
     .flip-card {
@@ -112,14 +111,16 @@
     </nav>
   </header>
   <main class="content">
+    <!-- First Row -->
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="./images/profile.jpg" alt="Avatar" style="width:100%; height: 100%;" />
+          <img src="./images/Sibusiso.jpeg" alt="Avatar" style="width:100%; height:100%;"/>
+          <h4>S Mayalo</h4>
         </div>
         <div class="flip-card-back">
-          <h1>Azabenathi Pupuma</h1>
-          <p><b>Civil Engineer & Software Developer</b></p>
+          <h1>Sibusiso Mayalo</h1>
+          <p><b>Technical Tester | </b></p>
           <p>I consider myself highly technical professional with strong ability to contribute
             in the IT industry, to carry out tasks autonomously and
             collaboratively with team members. Dynamic, innovative and critical with solid
@@ -131,7 +132,8 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="./images/IMG_20210627_090912.jpg" alt="Avatar" style="width:100%; height: 100%;" />
+          <img src="./images/IMG_20210627_090912.jpg" alt="Avatar" style="width:100%; height:100%;"/>
+          <h4>K E Mphayi</h4>
         </div>
         <div class="flip-card-back">
           <h1>Kagiso Mphayi</h1>
@@ -144,7 +146,55 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <img src="./images/pp.jpg" alt="Avatar" style="width:100%; height: 100%;" />
+          <img src="./images/kgomotso.jpeg" alt="Avatar" style="width:100%; height:100%;"/>
+          <h4>K Ramabetha</h4>
+        </div>
+        <div class="flip-card-back">
+          <h1>Kgomotso Ramabetha</h1>
+          <p><b>Fullstack Developer</b></p>
+          <p>We love that guy</p>
+          <!-- <button><a href="">Contact</a></button> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Row -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/Letlhogonolo.jpeg" alt="Avatar" style="width:100%; height:100%;"/>
+          <h4>L C Sekwati</h4>
+        </div>
+        <div class="flip-card-back">
+          <h1>Letlhogonolo Sekwati</h1>
+          <p><b>Software Developer</b></p>
+          <p>I consider myself highly technical professional with strong ability to contribute
+            in the IT industry, to carry out tasks autonomously and
+            collaboratively with team members. Dynamic, innovative and critical with solid
+            desire to learn and grow within the field. </p>
+          <!-- <button><a href="./contact.html">Contact</a></button> -->
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/Zintle.jpeg" alt="Avatar" style="width:100%; height:100%;"/>
+          <h4>Z Meslane</h4>
+        </div>
+        <div class="flip-card-back">
+          <h1>Zintle Meslane</h1>
+          <p><b>Fullstack Developer</b> </p>
+          <p>We love that guy</p>
+          <!-- <button><a href="">Contact</a></button> -->
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="./images/pp.jpg" alt="Avatar" style="width:100%; height:100%;"/>
+          <h4>A Kannemeyer</h4>
         </div>
         <div class="flip-card-back">
           <h1>Ashley Kannemeyer</h1>
